@@ -32,3 +32,5 @@ Path to your live fedora.log
 
 /var/log/islandora/tomcat/catalina.out
 Path to your live catalina.out
+
+Define destination and sender e-mail addresses
