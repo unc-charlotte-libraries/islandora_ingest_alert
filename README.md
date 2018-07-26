@@ -34,3 +34,8 @@ Path to your live fedora.log
 Path to your live catalina.out
 
 Define destination and sender e-mail addresses
+
+#### One more thing:
+
+The script is watching fedora.log for Islandora's derivative production phase:
+grep -i "getDatastream(" 2>&1
