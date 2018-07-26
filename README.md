@@ -11,10 +11,10 @@ Total Objects: 1437
 
 mss:55620 - mss:57056
 
-#### What is happening?
+#### How does it work?
 
-1. First, the script detects if an RSYNC is running (indication of in-bound files)
-2. Second, the script detects if DRUSH is running, and enters ingest alert routine (requires: islandora_batch_ingest --ingest_set=$batch_set_id)
+1. First, the script detects if RSYNC is running (indication of in-bound files), alerts accordingly
+2. Second, the script detects if DRUSH is running, and enters detailed alert routine (requires: islandora_batch_ingest --ingest_set=$batch_set_id)
 3. If neither RSYNC or DRUSH is running, system sends out "Hungry, Feed Me" e-mails
 
 
