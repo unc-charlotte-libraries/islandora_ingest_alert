@@ -27,11 +27,9 @@ Run using cron, every hour
 $upload_directory
 RSYNC upload directory to watch (just the directory name, not full path)
 
-/var/log/islandora/fedora/fedora.log
-Path to your live fedora.log
+/var/log/islandora/fedora/fedora.log (path to your live fedora.log)
 
-/var/log/islandora/tomcat/catalina.out
-Path to your live catalina.out
+/var/log/islandora/tomcat/catalina.out (path to your live catalina.out)
 
 Define destination and sender e-mail addresses
 
